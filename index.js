@@ -1,6 +1,6 @@
-const addClass = () => {
+const toggleClass = () => {
     const zarovka = document.querySelector(".bulb");
     zarovka.classList.toggle("bulb--on");
 }
 
-document.addEventListener("keydown", addClass);
+document.addEventListener("keydown", toggleClass);
